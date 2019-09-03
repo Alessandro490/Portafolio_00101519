@@ -1,0 +1,17 @@
+Parte 1
+-La dirección de [0][0]: es 100 debido a que es la posición del primer elemento.
+-La dirección de [2][1]:es 140 debido al row-mayor es su ubicación.
+-La dirección de [5][1]:es 200 ya que han pasado las 20 columnas de 2,3 y 4.
+-La dirección de [1][10]: es 130 debido a que ha seguido 30 números desde el comienzo.
+-La dirección de [2][10]: es 150 ya que han pasado nueve números desde [2][1].
+-La dirección de [5][3]: es 203 siendo dos columnas abajo de [5][3].
+-La dirección de [9][19]: es 299 siendo el último elemento de la matriz dada.
+
+Parte 2
+-La declaración: matrix[0][0] = *(*(matrix)), está correcta debido a que se esta declarando la posción 0,0 es decir el primer dato de la matriz.
+-La declaración: matrix[i][j]=*((*(matrix))+(i*COLS+j)), es válida ya que posee una declaración indebida dandonos un resultado que no concuerda.
+-La declaración: matrix[ i ][ j ] = *(*(matrix + i) + j), es correcta puesto que nos permite avanzar las posiciones puestas dentro de la
+matriz dada. 
+-La declaración: matrix[ i ][ j ] = *(matrix[i] + j), es válida y nos ayuda a cambiar los valores de i por j es decir poder intercambiar
+los valores de las filas y columnas, mostrando el valor nuevo.
+-La declaración: matrix[ i ][ j ] = (*(matrix + i))[j], es correcta pues nos permite demostrar la matriz en otro orden.
