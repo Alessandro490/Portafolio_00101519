@@ -1,0 +1,33 @@
+#include <iostream>
+using namespace std;
+void calculos(int num, int *doble, int *triple){
+    *doble=2*num;
+    *triple=3*num;
+    cout<<"dirreccion almacenada en puntero:"<<&doble<<endl;
+    cout<<"dirreccion almacenada en puntero:"<<&triple<<endl;
+}
+int main() {
+   int numero=2, doble=0,triple=0;
+   int *puntero=&doble;
+   calculos(numero, &doble, &triple);
+   cout<<"el doble de 2 es:"<<doble<<endl;
+   cout<<"el triple de 2 es:"<<triple<<endl;
+   cout<<&doble<<endl;
+   cout<<&triple<<endl;
+   cout<<*puntero<<endl;
+   cout<<puntero<<endl;
+return 0;
+}
+
+Explicación del programa:
+Lo primero, fue utilizar una función para poder realizar una indicación de calculos al programa, donde pediremos el doble y triple
+de un número, guardando dicha información en un puntero llamados *doble y *triple. Posteriormente en el main, mandamos a llamar la
+función, ejecutando lo antes pedido en la función dando el resultado, consiguiente ocuparemos el operador &, para mostrar lo que hemos
+almacenado en los punteros *dobel y triple*. Los cout de la función, son para demostrar que aunque el puntero este apuntado a &doble
+y &triple, lo que nos mostrará en la consola son direcciones del puntero y no el dato a guardar, mientras que al hacerlo en el main,
+podremos demostrar que se puede señalar tanto las direcciones como el valor.  
+Utilidad de los punteros:
+-Almacenar datos dentro de esa dirección.
+-Sirven para hacer árboles con mayor facilidad.
+-Enlace para una variable, valor en si mismo.
+-También pueden ocuparse como medio de retrollamada.
