@@ -1,0 +1,25 @@
+1º Algoritmo 
+stack: initialize;
+int 4,5,6,7;
+push(stack,7);
+push(stack,6);
+push(stack,5);
+push(stack,4);
+
+for (int i=0;i<2;i++)
+{
+ int x=pop(stack)
+}
+cout<<x<<endl;
+
+2º algortimo (tercer ejercicio de la diapositva)
+stack: initialize;
+for (int i=1;i<5;i++)
+{ 
+  push (stack,i);
+}
+
+for (int i=0;i<5;i++)
+{
+ int y=pop(stack);
+}
