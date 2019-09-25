@@ -1,0 +1,13 @@
+El análisis de la operación que se tiene es de:
+A-B/(C*D$E)
+1. A-B/(C*DE$) //Siendo más importante la conversión de una potencia.
+2. A-B/(CDE$*) //Ahora ejecutando el por ya que primero se hace lo más interno().
+3. A-BCDE$*/   //Posterioremente ejecutaríamos la división de B.
+4. ABCDE$*/-   //Finalmente solo pondríamos la resta de A-B.
+
+La segunda operación:
+((AB)*C-(D-E))$(F+G)
+1. ((AB+)*C-(DE-))$(FG+) //Lo primero es desarrollar lo que tenemos dentro de los parentesis.
+2. (AB+C*-(DE-))$(FG+)   //Siguiente elaboramos la multiplicacoión de C del primer parentesis.
+3. (AB+C*DE--)$(FG+)     //Posterioremente elaboramos la resta del primer parentesis.
+4. AB+C*DE--FG+$         //Como último paso desarrollamos la potencia.
