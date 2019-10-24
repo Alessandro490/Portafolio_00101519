@@ -1,0 +1,43 @@
+Primer árbol
+1. Raíz: Nodo A
+   -Ramas: Nodo B, Nodo C, Nodo D, NodoE, 
+   -Hojas: Nodo G , Nodo h , Nodo I, Nodo F
+2. Nivel: 
+   Nivel 0: Nodo A
+   Nivel 1: Nodo B, Nodo C 
+   Nivel 2: Nodo D, Nodo E, Nodo F
+   Nivel 3: Nodo G, Nodo H, Nodo I
+3. Profundidad: La profundidad es de 3
+   -Peso: El peso es de 9
+   -Orden: Es de orden 2.
+4. Sub-árbol: El ser sub-árbol E, H, I
+5. El árbol binario no está lleno pues los nodos deberían de tener todos sus hijos, mientras que en el ejericio
+los nodos no tienen hijos completos. 
+6. El árbol no es completo porque no posee la misma profundidad en todas las rama, hojas o hijos.
+7. Recorridos:
+   -Pre-orden:  A,B,D,G,C,E,H,I,F
+   -in-order:   G,D,B,H,I,E,F,C,A
+   -post-order: D,G,B,A,H,E,I,C,F1
+
+
+
+Segundo árbol
+1. Raíz: Nodo A
+   -Ramas: Nodo B, Nodo C, Nodo D, Nodo E, Nodo F, Nodo G, Nodo H
+   -Hojas: Nodo I, Nodo J, Nodo K, Nodo L  
+2. Nivel 0: Nodo A
+Nivel 1: Nodo B
+Nivel 2: Nodo C, Nodo D
+Nivel 3: Nodo E, Nodo F, Nodo G, Nodo H
+Nivel 4: Nodo I, Nodo J, Nodo K, Nodo L
+3. Profundidad: La profundidad es de 4
+   -Peso: El peso es de 12
+   -Orden: Es de orden 2
+4. Sub-árbol: El ser sub-árbol H, K, L
+5. El árbol binario no está lleno pues los nodos deberían de tener todos sus hijos, mientras que en el ejericio
+los nodos no tienen hijos completos ya que solo algunos tenen. 
+6. El árbol no es completo porque no posee la misma profundidad en todas las rama, hojas o hijos.
+7. Recorridos:
+   -Pre-orden:  A,B,C,E,I,F,J,D,G,H,K,L
+   -in-order:   E,I,C,F,J,B,G,D,K,H,A,L
+   -post-order: I,E,F,J,C,G,K,L,H,D,B,A
