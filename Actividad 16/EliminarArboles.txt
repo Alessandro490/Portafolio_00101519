@@ -1,0 +1,34 @@
+Árbol 1-> Eliminación (mediante método de eliminación)
+-Se elimina el 95 y posteriormente se agarra el 100 como raíz, sustituyendo el 95.
+-Se elimina el 72, y el 60 ocupa su lugar, por ser el hijo.
+-Se elimina el 84.
+-Se elimina el 100 (la nueva raíz) y el 105 ocupa su lugar.
+-Se elimina el 82 y 81 ocupa su puesto.
+
+Árbol 2 -> Añadir datos en árbol balanceado
+
+-Agregar 86 a la derecha del 75.
+-Agregar 65 a la izquierda del 75.
+-Agregar 70 a la derecha del 65 y después hacer una doble rotación izquierda, teniendo 65 de raíz.
+-Agregar 67 a la izquierda del 70.
+-Agregar 73 a la derecha del 70.
+-Agregar 93 a la derecha del 86.
+-Agregar 69 a la derecha del 67 y posteriormente hacer una doble rotación izquierda, logrando el balance.
+-Agregar 25 a la izquierda del 43 y haciendo una simple rotación derecha, logrando equidad.
+-Agregar 66 a la izquierda del 67.
+-Agregar 68 a la izquierda del 69.
+-Agregar 47 a la izquierda del 58.
+-Agregar 62 a la derecha del 58.
+-Agregar 10 a la izquierda del 25.
+-Agregar 60 a la izquierda del 62 y hacer una simple rotación derecha, logrando dejar el árbol balanceado.
+
+Arbol 3 -> Eliminación en árbol balanceado
+
+-Eliminar 25, poniendo 10 en su posición y hacer una simple rotación izquierda.
+-Eliminar 75, colocar 73 en su lugar y hacer una simple rotación izquierda.
+-Eliminar 66 y hacer doble rotación izquierda.
+-Eliminar 65, colocar 62 en su lugar y luego colocar 60 en el lugar que estaba el 62.
+-Eliminar 62, colocar 60 en su lugar y hacer una simple rotación derecha.
+-Eliminar 10 y hacer doble rotación izquierda.
+-Eliminar 43.
+-Eliminar 47, colocar 58 en su lugar y hacer una simple rotación izquierda 100.
