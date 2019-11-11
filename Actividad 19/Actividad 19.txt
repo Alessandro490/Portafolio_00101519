@@ -1,0 +1,51 @@
+Datos a agregar: 43, 21, 77, 58, 63, 15, 37, 41, 72, 39, 95, 70.
+
+53 De raíz 
+10-27 Rama izquierda
+68-80 Rama derecha 
+
+Agregando 43:
+10-27-43 (quedaría el 43 a la derecha de 27)
+Agregando 21:
+10-21-27-43 (quedaría el 21 a la izquierda de 27)
+
+Agregando el 77:
+68-77-80 (agregando a la derecha de 77 de 68)
+Agregando el 58:
+58-68-77-80 (agregandolo a la izquierda de 68)
+Agregando el 63:
+58-63-68-77-80 (agregando 63 a la izquierda de 68)
+Teniendo el 68 de en medio subiría dejando:
+Rama lado izquierdo: 58-63
+Rama lado derecho:77-80
+
+Agregando el 15:
+10-15-21-27-43 (Al derecha de 10)
+Teniendo el 21 de centro sube dejando:
+Lado izquierdo: 10-15
+Lado derecho: 27-43
+
+Agregando el 37:
+27-37-43 (Agregar el 37 en medio de 27 y 43)
+Agregando el 41:
+27-37-41-43 (Agregar el 41 a la izquierda de 43)
+Agregando el 72:
+72-77-80 (Agregando el 72 a la izquierda del 72)
+Agregando el 39:
+27-37-39-41-43 (Agregandolo a la izquierda de 41)
+
+Subiendo el 39 de centro y se le une a 21 dejando:
+Lado izquierdo: 10-15 
+Lado del centro: 27-37
+Lado derecho: 41-43
+
+Agregando el 95:
+72-77-80-95
+Agregando el 70:
+70-72-77-80-95
+Subiendo el 77 uniendose al 68 dejando:
+Lado izquierdo: 58-63
+Lado del centro: 70-72 
+Lado derecho: 80-95
+
+Quedando nos el árbol como nos dice la imagen.
