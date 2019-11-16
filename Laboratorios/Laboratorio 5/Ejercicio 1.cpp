@@ -191,11 +191,11 @@ int main(){
 
     bool continuar = true;
     do{
-        int opcion = 0;
-        cout << "Menu:\n\t1) Mostrar recorridos";
-        cout << "\n\t2) Recorrer personalizado";
-        cout << "\n\t3) Mostrar profundidad\n\t4) Suma\n\tOpcion elegida: "
-        <<"\n\t 5) Salir"<<endl;
+       int opcion = 0;
+        cout << "Menu:\n\t1) Agregar Nodo";
+        cout << "\n\t2) Recorrer Nodo";
+        cout << "\n\t3) Recorrer Personalizado \n\t4) Mostrar profundidad \n\t5) suma"
+        <<"\n\t6) Salir \n\tOpcion elegida:" <<endl;
         cin >> opcion;
         switch(opcion){
             case 1: agregarNodo(arbol);
@@ -217,4 +217,5 @@ int main(){
 
     return 0;
 }
+
 
